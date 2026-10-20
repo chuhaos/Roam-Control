@@ -3,10 +3,23 @@
 This page records the public evolution of Roam Control at a user-facing level.
 
 Older releases remain listed on GitHub for historical reference. Roam Control keeps the current stable IPA available and may retain an older IPA where it is still required for migration compatibility.
+## 0.9.9 - Build 105
+
+Current stable public release.
+
+Released 20 October 2026.
+
+- Added eight interface languages to English and Hebrew, bringing the total to ten plus System Default, with live switching, right-to-left layouts and Chinese script-aware language selection.
+- Improved map controls, coordinate compatibility and route handling.
+- Introduced custom Walking, Cycling and Driving speeds, with refined driving calculations, route estimates and live walking-speed display.
+- Improved connection recovery flows, within iOS background-execution limitations.
+- Refined language selection, recovery presentation and translated app messages.
+- Continued support for existing fixed locations, routes, Joystick, backups, diagnostics and Stop & Restore.
+
 
 ## 0.9.7 - Build 96
 
-Current stable public release.
+Previous stable public release.
 
 Released 8 October 2026.
 

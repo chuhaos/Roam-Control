@@ -4,6 +4,52 @@ Public-facing changes to Roam Control are recorded here.
 
 Detailed internal engineering notes are maintained privately.
 
+## 0.9.9 - Build 105
+
+Released 20 October 2026.
+
+### Highlights
+
+- **Ten interface languages:** English, Hebrew, Arabic, Simplified Chinese, Traditional Chinese, Japanese, Vietnamese, French, German and Spanish, plus System Default.
+- **Improved maps and routes:** refined route handling, map interaction and coordinate compatibility.
+- **Connection recovery:** improved detection and recovery of interrupted connections when the app is able to run; iOS background restrictions still apply.
+- **Custom movement speeds:** configurable speeds for Walking, Cycling and Driving, with refined driving calculations, route estimates and walking-speed display.
+- **Interface refinements:** clearer recovery presentation, a redesigned language picker and improved translated UI formatting.
+
+### Languages and accessibility
+
+- Added eight languages to English and Hebrew, with 831 localisable catalogue entries and six app-name/permission resources per new language.
+- Added Arabic and Hebrew right-to-left layout handling, including isolation of technical text and pairing codes.
+- Added immediate language switching without restarting the app, including correct distinction between Simplified and Traditional Chinese.
+- Refined the language picker with English language titles, native-language subtitles and selection indicators.
+- Improved plural formatting, translated notices, speed-label sizing and locale-sensitive display of values.
+- Translations were tested automatically; feedback on language quality is welcome.
+
+### Maps, movement and routing
+
+- Improved coordinate compatibility and map controls.
+- Refined route handling and clearer handling of route failures.
+- Added custom movement-speed controls for Walking, Cycling and Driving.
+- Refined driving targets and estimated times, and improved live walking-speed presentation.
+
+### Connection and session recovery
+
+- Improved automatic reconnection and recovery flows for interrupted connections and location sessions while iOS permits the app to execute.
+- Refined recovery controls and guidance. These improvements do not guarantee automatic recovery when iOS suspends or terminates the app.
+- Retained existing pairing, LocalDevVPN and real-location restoration workflows.
+
+### Installation and migration
+
+- Requires iOS 27 or newer, Developer Mode and LocalDevVPN for pairing connectivity. Distributed as an unsigned IPA for signing through SideStore or a compatible installation method.
+- **Upgrading directly from 0.9.4 or earlier:** Back up favourites, history and supported preferences before moving to the newer `com.roamcontrol` app identifier. Data does not automatically transfer from the old app container; pairing records are not included in app backups and the device must be paired again.
+- See [Installation](Documentation/Installation.md), [Migration FAQ](Documentation/Migration095.md) and [Current Release](Documentation/CurrentRelease.md).
+
+### Distribution
+
+- IPA: `RoamControl-0.9.9-Build105.ipa`
+- SHA-256: `211f1057c70292da468226b39808d8777549c02923c14afc504d9e1d2daba86e`
+- [GitHub release](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.9)
+
 ## 0.9.7 - Build 96
 
 Released 8 October 2026.
