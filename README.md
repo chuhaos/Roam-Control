@@ -67,6 +67,14 @@ Roam Control is distributed as a prebuilt IPA. The application source code is no
 - Ten interface languages plus System Default, with live switching and right-to-left layouts.
 - Custom Walking, Cycling and Driving speeds and improved route estimates.
 
+## Latest Release Updates
+
+**Roam Control 0.9.9 (Build 105)**
+
+- [Download and full changelog](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.9)
+- [Discord announcement](https://discord.com/channels/1545707354853736468/1545708089146081384/1562193889417236643)
+- [Reddit discussion](https://www.reddit.com/r/sideloaded/comments/1xb2nvt/roam_control_099_is_out_10_languages_custom/)
+
 ## Install
 
 Roam Control is not distributed through the App Store or TestFlight.
