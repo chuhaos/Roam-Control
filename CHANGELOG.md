@@ -4,6 +4,8 @@ Public-facing changes to Roam Control are recorded here.
 
 Detailed internal engineering notes are maintained privately.
 
+See [Release History](Documentation/ReleaseHistory.md) and [Download History](Documentation/DownloadHistory.md) for additional release records.
+
 ## 0.9.9 - Build 105
 
 Released 20 October 2026.

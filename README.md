@@ -104,6 +104,7 @@ Read the [Installation Guide](Documentation/Installation.md) before installing.
 Only download Roam Control from the official GitHub repository. Unofficial mirrors, modified builds and redistributed copies are not authorised.
 
 ## Documentation
+- [Documentation index](Documentation/README.md)
 
 - [Installation](Documentation/Installation.md)
 - [0.9.5 Migration & SideStore FAQ](Documentation/Migration095.md)
